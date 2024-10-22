@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Algorithm.iml" filepath="$PROJECT_DIR$/.idea/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Init/Init.iml" filepath="$PROJECT_DIR$/Init/Init.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sequential_structure/Sequential_structure.iml" filepath="$PROJECT_DIR$/Sequential_structure/Sequential_structure.iml" />
       <module fileurl="file://$PROJECT_DIR$/Init/com.xjtu.Sequential_structure/com.xjtu.Sequential_structure.iml" filepath="$PROJECT_DIR$/Init/com.xjtu.Sequential_structure/com.xjtu.Sequential_structure.iml" />
     </modules>
   </component>
