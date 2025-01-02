@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/Init/com.xjtu.Sequential_structure/com.xjtu.Sequential_structure.iml" filepath="$PROJECT_DIR$/Init/com.xjtu.Sequential_structure/com.xjtu.Sequential_structure.iml" />
       <module fileurl="file://$PROJECT_DIR$/hashTable/hashTable.iml" filepath="$PROJECT_DIR$/hashTable/hashTable.iml" />
       <module fileurl="file://$PROJECT_DIR$/hot100/hot100.iml" filepath="$PROJECT_DIR$/hot100/hot100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>
