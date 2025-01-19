@@ -1,12 +1,23 @@
+import java.util.Arrays;
 import java.util.List;
 
 public class test {
     public static void main(String[] args) {
-        leetCode22 solution = new leetCode22();
-        int n = 3; // 这里可以根据你想要生成括号组合的数量来设定n的值，示例中设为3
-        List<String> resultList = solution.generateParenthesis(n);
-        for (String s : resultList) {
-            System.out.println(s);
+        int[] weight = {1, 3, 4};
+        int[] value = {15, 20, 30};
+        int bagWeight = 4;
+        int[] dp = new int[bagWeight + 1];
+//        int[][] dp = new int[weight.length + 1][bagWeight + 1];
+//        for (int j = weight[0]; j <= bagWeight; j++) {
+//            dp[0][j] = value[0];
+//        }
+        for (int i = 0; i < weight.length; i++){ // 遍历物品
+            for (int j = weight[i]; j <= bagWeight; j++){ // 遍历背包容量
+                dp[j] = Math.max(dp[j], dp[j - weight[i]] + value[i]);
+            }
+            System.out.println("dp = " + Arrays.toString(dp));
         }
+
     }
+
 }
